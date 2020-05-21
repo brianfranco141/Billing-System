@@ -3,23 +3,12 @@
 
 #include "Bill.hpp"
 
-/************************************************
-** Member function definitions
-************************************************/
-
-// ADD IMPLEMENTATION OF CONSTRUCTOR FOR CLASS Bill
 
 Bill::Bill(std::string name, const double &dues, const unsigned int &month, const unsigned int &day):payee_(std::move(name)), amount_due_(dues), due_month_(month), due_day_(day) {}
 
 bool Bill::isOverdue(const unsigned int &currMonth, const unsigned int& currDay ) {
-  // returns true if the due date for the bill is past 
-  // the date (month and day) given as parameters
-  // false otherwise
+
     return daysOverdue(currMonth, currDay) > 0;
-
-
-// TO BE COMPLETED
-
 }
 
 unsigned int Bill::daysOverdue(const unsigned int &currMonth, const unsigned int &currDay) {
