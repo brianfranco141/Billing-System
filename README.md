@@ -1,5 +1,1 @@
-# Project 3
-## CSUF CPSC 131, Fall 2019
-
-
-Brian Franco brianfranco@csu.fullerton.edu
+Created a personal bill management system that handles cash flow in a checking account. Implemented stack/ queue data structures to effectively pay important bills first.
