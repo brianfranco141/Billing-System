@@ -1,0 +1,9 @@
+paycheck, 1000.0
+bill,Chase credit card, 535.49, 1/12
+bill,Southern California Edison, 57.89, 1/22
+bill,Citibank credit card, 1009.12, 1/12
+bill,Republic Services trash, 62.75, 1/2
+pay,2/1
+paycheck, 1000.0
+bill,Spectrum,49.99,2/12
+pay,3/1
